@@ -13,7 +13,7 @@ public class Radio {
     }
 
     public void setToRadioVolume(int likeRadioVolume) {
-        if (likeRadioVolume <0 || likeRadioVolume > 100) {
+        if (likeRadioVolume < 0 || likeRadioVolume > 100) {
             return;
         } else {
             radioVolume = likeRadioVolume;

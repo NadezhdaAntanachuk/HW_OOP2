@@ -94,6 +94,7 @@ public class RadioTest {
         int actual = myRadio.getRadioVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldSetRadioVolumeLower() {
         Radio myRadio = new Radio();
@@ -103,6 +104,7 @@ public class RadioTest {
         int actual = myRadio.getRadioVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldSetRadioVolumeUpAbove() {
         Radio myRadio = new Radio();
@@ -112,6 +114,7 @@ public class RadioTest {
         int actual = myRadio.getRadioVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldSetRadioVolumeDownLower() {
         Radio myRadio = new Radio();
