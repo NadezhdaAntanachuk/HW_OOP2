@@ -51,7 +51,7 @@ public class Radio {
 
     public void setToRadioVolumeUp() {
         if (radioVolume < 100) {
-            radioStation++;
+            radioVolume++;
             return;
         } else {
             return;

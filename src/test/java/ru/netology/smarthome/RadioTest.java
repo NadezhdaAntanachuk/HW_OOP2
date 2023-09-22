@@ -70,9 +70,9 @@ public class RadioTest {
     public void shouldSetRadioVolumeUp() {
         Radio myRadio = new Radio();
         myRadio.setToRadioVolume(5);
-        myRadio.setToRadioStationNext();
+        myRadio.setToRadioVolumeUp();
         int expected = 6;
-        int actual = myRadio.getRadioStation();
+        int actual = myRadio.getRadioVolume();
         Assertions.assertEquals(expected, actual);
     }
 
