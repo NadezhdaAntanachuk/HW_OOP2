@@ -1,8 +1,8 @@
 package ru.netology.smarthome;
 
 public class Radio {
-    public int radioStation;
-    public int radioVolume;
+    private int radioStation;
+    private int radioVolume;
 
     public int getRadioStation() {
         return radioStation;
