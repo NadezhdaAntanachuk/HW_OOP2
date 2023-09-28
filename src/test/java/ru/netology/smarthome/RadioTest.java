@@ -57,6 +57,15 @@ public class RadioTest {
     }
 
     @Test
+    public void shouldSetRadioStationCount() {
+        Radio myRadio = new Radio(20);
+        myRadio.setToRadioStation(15);
+        int expected = 15;
+        int actual = myRadio.getRadioStation();
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
     public void shouldSetRadioStationAbove() {
         Radio myRadio = new Radio();
         int currentRadioStation = myRadio.getRadioStation();
